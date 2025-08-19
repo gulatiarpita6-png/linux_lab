@@ -1,4 +1,4 @@
-Here's a **Markdown (`.md`) file** that explains the Linux commands `rm`, `cp`, `touch`, and gives a **simple example** of moving a file from one location to another using `mv`.
+# FIRST LAB
 
 ---
 
@@ -80,32 +80,4 @@ mkdir my_project
 mv file1.txt my_project/
 ```
 
-After running these commands:
-
-* `file1.txt` will no longer be in the current directory.
-* It will be inside the `my_project/` folder.
-
----
-
-### 📝 Notes:
-
-* `rm` is irreversible – use with caution.
-* `cp` keeps the original file intact.
-* `touch` is handy for quick test files.
-* `mv` is used for both moving and renaming files.
-
-```
-
----
-
-### 📁 Download the Markdown File
-
-Let me generate the `.md` file for you:  
-```
-
-
-Your Markdown file has been created:
-👉 [Click here to download **linux\_commands\_cheatsheet.md**](sandbox:/mnt/data/linux_commands_cheatsheet.md)
-
-Let me know if you want a PDF or DOCX version too!
 ![alt text](image.png)

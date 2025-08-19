@@ -1,4 +1,4 @@
-Here's a **detailed tutorial on basic terminal commands** that work on **Linux, macOS, and Git Bash (Windows)**. These commands are essential for navigating and managing files from the terminal, especially for coding and version control (e.g., Git, VS Code, etc.).
+# LAB 3     
 
 ---
 
@@ -108,8 +108,6 @@ rm file.txt          # Delete file
 rm -r folder_name    # Delete folder (recursively)
 ```
 
-⚠️ **Be careful!** There is no undo.
-
 ---
 
 ## ✅ 3. **File Viewing & Editing**
@@ -158,68 +156,3 @@ Useful for debugging or scripting.
 echo "Hello, World!"
 ```
 
----
-
-### `whoami` – Show Current User
-
-```bash
-whoami
-```
-
----
-
-### `man` – Manual for Any Command
-
-```bash
-man ls
-```
-
-Use `q` to quit the manual.
-
----
-
-## ✅ 5. **Searching and Finding**
-
-### `find` – Locate Files
-
-```bash
-find . -name "*.txt"
-```
-
-🔍 Finds all `.txt` files in current folder and subfolders.
-
----
-
-### `grep` – Search Inside Files
-
-```bash
-grep "hello" file.txt
-```
-
-🔍 Searches for the word `hello` inside `file.txt`.
-
----
-
-## ✅ 6. **Helpful Shortcuts**
-
-| Shortcut   | Action                      |
-| ---------- | --------------------------- |
-| `Tab`      | Auto-complete files/folders |
-| `↑ / ↓`    | Browse command history      |
-| `CTRL + C` | Stop a running command      |
-| `CTRL + L` | Clear screen                |
-
----
-
-## ✅ 7. **Bonus: Chaining Commands**
-
-* **Run multiple commands**:
-
-```bash
-mkdir test && cd test && touch hello.txt
-```
-
-* **Run only if previous command succeeds**: `&&`
-* **Run regardless of success**: `;`
-
----

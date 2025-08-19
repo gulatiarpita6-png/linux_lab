@@ -1,4 +1,4 @@
-# basic commands
+# basic commands lab 4
 
 ````markdown
 # Basic Linux Commands: cp, echo, cat, mv, rm
@@ -112,8 +112,9 @@ rm -f file.txt
 
 ```
 
-⚡ Do you want me to also add a **real-life workflow example** (using all five commands together step by step) so it looks like a practical demo?
 ```
 
 ![alt text](image-3.png)
+
+![alt text](image-4.png)
 
