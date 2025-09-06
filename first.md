@@ -6,14 +6,14 @@
 
 ````markdown
 # Linux File Commands Cheat Sheet
-
+````
 ###1. `rm` – Remove a File or Directory
 
 - **Usage:**
   ```bash
   rm filename
 ````
-
+````
 * **Examples:**
 
   ```bash
