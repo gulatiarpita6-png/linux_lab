@@ -9,8 +9,15 @@
 ````
 ---
 ``
+### 1 `mkdir` – Make Directory
 
-### 1. `rm` – Remove a File or Directory
+Creates a new folder.
+
+```bash
+mkdir new_folder
+```
+
+### 2. `rm` – Remove a File or Directory
 
 - **Usage:**
   ```bash
@@ -27,7 +34,7 @@
 
 ---
 
-## 2. `cp` – Copy Files or Directories
+## 3. `cp` – Copy Files or Directories
 
 * **Usage:**
 
@@ -45,7 +52,7 @@
 
 ---
 
-## 3. `touch` – Create an Empty File
+## 4. `touch` – Create an Empty File
 
 * **Usage:**
 
@@ -62,7 +69,7 @@
 
 ---
 
-## 4. `mv` – Move (or Rename) a File
+## 5. `mv` – Move (or Rename) a File
 
 * **Usage:**
 
