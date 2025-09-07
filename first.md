@@ -91,3 +91,54 @@ mv file1.txt my_project/
 ```
 
 ![alt text](image.png)
+
+### 🔐 `chmod` – Change File Permissions
+
+Basic syntax:
+
+```bash
+chmod [permissions] file
+```
+
+#### Common Usage:
+
+```bash
+chmod 755 script.sh     # Owner: read/write/execute; others: read/execute
+chmod +x file.sh        # Add execute permission
+chmod -x file.sh        # Remove execute permission
+```
+
+### 🔢 What Do Numbers Mean?
+
+| Number | Permission             |
+| ------ | ---------------------- |
+| 7      | read + write + execute |
+| 6      | read + write           |
+| 5      | read + execute         |
+| 4      | read only              |
+| 0      | no permission          |
+
+Example:
+
+```bash
+chmod 644 file.txt
+# Owner: read/write, Group: read, Others: read
+```
+
+---
+
+### 👑 `chown` – Change File Owner
+
+```bash
+sudo chown user:group file
+```
+
+Example:
+
+```bash
+sudo chown alice:alice myfile.txt
+```
+
+---
+
+<img width="771" height="517" alt="image-7" src="https://github.com/user-attachments/assets/c6485736-bbaf-4385-82c3-c2f61482bf2a" />
