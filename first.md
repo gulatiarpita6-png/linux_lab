@@ -92,7 +92,7 @@ mv file1.txt my_project/
 
 ![alt text](image.png)
 
-### 🔐 `chmod` – Change File Permissions
+### 6. `chmod` – Change File Permissions
 
 Basic syntax:
 
@@ -126,8 +126,10 @@ chmod 644 file.txt
 ```
 
 ---
+<img width="771" height="517" alt="image-7" src="https://github.com/user-attachments/assets/063c4935-77bd-46a4-a6cc-6d1ad748fe3e" />
 
-### 👑 `chown` – Change File Owner
+
+### 7. `chown` – Change File Owner
 
 ```bash
 sudo chown user:group file
@@ -140,5 +142,52 @@ sudo chown alice:alice myfile.txt
 ```
 
 ---
+<img width="710" height="115" alt="image-8" src="https://github.com/user-attachments/assets/e8d8c45b-1995-4825-ad46-040c2814c27e" />
 
-<img width="771" height="517" alt="image-7" src="https://github.com/user-attachments/assets/c6485736-bbaf-4385-82c3-c2f61482bf2a" />
+
+### EXTRA QUESTIONS 
+
+### Q1. DIFFERENCE BETWEEN CHMOD AND CHOWN ?
+
+### CHMOD (change mode)
+
+:used to change the permission of a file or directory. 
+: it does not change ownership , only who can read , write , execute. 
+
+syntax :
+chmod [permissions] [file/directory]
+
+example :
+chmod 755 file.txt    # Gives owner full rights, others read+execute only
+chmod u+x script.sh   # Adds execute permission to the owner only
+chmod g-w file.txt    # Removes write permission from group
+
+### CHOWN ( change owner)
+
+: used to change the owner or group of a file or directory 
+: it does not set permissions , only who owns the file .
+
+syntax :
+chown [new_owner] [file/directory]
+chown [new_owner]:[new_group] [file/directory]
+
+example:
+chown arpita file.txt          # Changes the owner of file.txt to arpita
+chown root:admin file.txt      # Changes owner to root and group to admin
+sudo chown -R arpita folder/   # Recursively change ownership for all files inside folder
+
+### Q2. HOW DO YOU CHECK CURRENT DIRECTORY AND USER ?
+
+1. TO CHECK CURRENT DIRECTORY - pwd
+   [ example output -
+   /home/username/projects ]
+   
+3. TO CHECK CURRENT USER - whoami
+   [ example output -
+    username ]
+
+ <img width="818" height="157" alt="image" src="https://github.com/user-attachments/assets/8885fdd6-40fa-4662-be50-f8d2f1587f6f" />
+
+
+
+
