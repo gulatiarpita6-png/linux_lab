@@ -157,10 +157,6 @@ sudo chown alice:alice myfile.txt
 syntax :
 chmod [permissions] [file/directory]
 
-example :
-chmod 755 file.txt    # Gives owner full rights, others read+execute only
-chmod u+x script.sh   # Adds execute permission to the owner only
-chmod g-w file.txt    # Removes write permission from group
 
 ### CHOWN ( change owner)
 
@@ -171,10 +167,6 @@ syntax :
 chown [new_owner] [file/directory]
 chown [new_owner]:[new_group] [file/directory]
 
-example:
-chown arpita file.txt          # Changes the owner of file.txt to arpita
-chown root:admin file.txt      # Changes owner to root and group to admin
-sudo chown -R arpita folder/   # Recursively change ownership for all files inside folder
 
 ### Q2. HOW DO YOU CHECK CURRENT DIRECTORY AND USER ?
 
